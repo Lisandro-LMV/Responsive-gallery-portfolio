@@ -6,7 +6,7 @@ Landing page responsive creada con HTML, CSS y JavaScript para mostrar servicios
 
 | Móvil | Escritorio |
 |------|------------|
-| ![Vista en móvil](Img/demo-mobile.jpg) | ![Vista en escritorio](Img/demo-desktop.png) |
+| ![Vista en móvil](Img/demo-movil.jpg) | ![Vista en escritorio](Img/demo-desktop.png) |
 
 ## Funcionalidad clave: Lightbox
 
