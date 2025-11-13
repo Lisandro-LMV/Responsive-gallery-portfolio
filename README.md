@@ -2,6 +2,16 @@
 
 Landing page responsive creada con HTML, CSS y JavaScript para mostrar servicios, portafolio y expertos.
 
+## Capturas de Pantalla
+
+| Móvil | Escritorio |
+|------|------------|
+| ![Vista en móvil](img/demo-mobile.jpg) | ![Vista en escritorio](img/demo-desktop.jpg) |
+
+## Funcionalidad clave: Lightbox
+
+![Lightbox en acción](img/demo-lightbox.jpg)
+
 ## Funcionalidades
 - Menú hamburguesa responsive
 - Galería con Lightbox
