@@ -12,6 +12,10 @@ Landing page responsive creada con HTML, CSS y JavaScript para mostrar servicios
 
 ![Lightbox en acción](Img/demo-lightbox.jpg)
 
+## Demo en Vivo
+[Ver el portafolio online](https://lisandro-lmv.github.io/Responsive-gallery-portfolio/)  
+*(Haz clic para navegar por el menú, la galería y el Lightbox en tiempo real)*
+
 ## Funcionalidades
 - Menú hamburguesa responsive
 - Galería con Lightbox
