@@ -6,11 +6,11 @@ Landing page responsive creada con HTML, CSS y JavaScript para mostrar servicios
 
 | Móvil | Escritorio |
 |------|------------|
-| ![Vista en móvil](img/demo-mobile.jpg) | ![Vista en escritorio](img/demo-desktop.jpg) |
+| ![Vista en móvil](Img/demo-mobile.jpg) | ![Vista en escritorio](Img/demo-desktop.png) |
 
 ## Funcionalidad clave: Lightbox
 
-![Lightbox en acción](img/demo-lightbox.jpg)
+![Lightbox en acción](Img/demo-lightbox.jpg)
 
 ## Funcionalidades
 - Menú hamburguesa responsive
