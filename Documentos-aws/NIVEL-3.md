@@ -126,11 +126,11 @@ def cors_headers():
 
 | Descripción | Screenshot |
 |---|---|
-| Página principal de la función | ![Lambda Principal](Screenshots/Screenshots-level-3/nivel3-lambda-principal.png) |
-| Código fuente en la consola | ![Lambda Código](Screenshots/Screenshots-level-3/nivel3-lambda-codigo.png) |
-| Variables de entorno | ![Lambda Env Vars](Screenshots/Screenshots-level-3/nivel3-lambda-env-variables.png) |
-| Monitor de invocaciones | ![Lambda Monitor](Screenshots/Screenshots-level-3/nivel3-lambda-monitor.png) |
-| Permisos y rol de ejecución | ![Lambda Permisos](Screenshots/Screenshots-level-3/nivel3-lambda-permisos.png) |
+| Página principal de la función | ![Lambda Principal](Screenshots/Screenshots-level-3/nivel3-lambda-principal.png.png) |
+| Código fuente en la consola | ![Lambda Código](Screenshots/Screenshots-level-3/nivel3-lambda-codigo.png.png) |
+| Variables de entorno | ![Lambda Env Vars](Screenshots/Screenshots-level-3/nivel3-lambda-env-variables.png.png) |
+| Monitor de invocaciones | ![Lambda Monitor](Screenshots/Screenshots-level-3/nivel3-lambda-monitor.png.png) |
+| Permisos y rol de ejecución | ![Lambda Permisos](Screenshots/Screenshots-level-3/nivel3-lambda-permisos.png.png) |
 
 ---
 
