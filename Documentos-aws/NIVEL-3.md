@@ -42,7 +42,7 @@ SES se utiliza para el envío transaccional de emails desde la Lambda.
 
 **Screenshot de verificación:**
 
-![SES Verificado](Screenshots/Screenshots-level-3/nivel3-ses-verificado.png)
+![SES Verificado](Screenshots/Screenshots-level-3/nivel3-ses-verificado.png.png)
 
 ---
 
@@ -126,11 +126,11 @@ def cors_headers():
 
 | Descripción | Screenshot |
 |---|---|
-| Página principal de la función | ![Lambda Principal](Screenshots/Screenshots-level-3/nivel3-lambda-principal.png) |
-| Código fuente en la consola | ![Lambda Código](Screenshots/Screenshots-level-3/nivel3-lambda-codigo.png) |
-| Variables de entorno | ![Lambda Env Vars](Screenshots/Screenshots-level-3/nivel3-lambda-env-variables.png) |
-| Monitor de invocaciones | ![Lambda Monitor](Screenshots/Screenshots-level-3/nivel3-lambda-monitor.png) |
-| Permisos y rol de ejecución | ![Lambda Permisos](Screenshots/Screenshots-level-3/nivel3-lambda-permisos.png) |
+| Página principal de la función | ![Lambda Principal](Screenshots/Screenshots-level-3/nivel3-lambda-principal.png.png) |
+| Código fuente en la consola | ![Lambda Código](Screenshots/Screenshots-level-3/nivel3-lambda-codigo.png.png) |
+| Variables de entorno | ![Lambda Env Vars](Screenshots/Screenshots-level-3/nivel3-lambda-env-variables.png.png) |
+| Monitor de invocaciones | ![Lambda Monitor](Screenshots/Screenshots-level-3/nivel3-lambda-monitor.png.png) |
+| Permisos y rol de ejecución | ![Lambda Permisos](Screenshots/Screenshots-level-3/nivel3-lambda-permisos.png.png) |
 
 ---
 
@@ -162,8 +162,8 @@ Access-Control-Allow-Methods: POST,OPTIONS
 
 | Descripción | Screenshot |
 |---|---|
-| Rutas y recursos de la API | ![API Rutas](Screenshots/Screenshots-level-3/nivel3-apigateway-rutas.png) |
-| Configuración CORS | ![API CORS](Screenshots/Screenshots-level-3/nivel3-apigateway-cors.png) |
+| Rutas y recursos de la API | ![API Rutas](Screenshots/Screenshots-level-3/nivel3-apigateway-rutas.png.png) |
+| Configuración CORS | ![API CORS](Screenshots/Screenshots-level-3/nivel3-apigateway-cors.png.png) |
 
 ---
 
@@ -200,8 +200,8 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
 
 | Descripción | Screenshot |
 |---|---|
-| Formulario listo para completar | ![Formulario Completo](Screenshots/Screenshots-level-3/nivel3-formulario-completo.png) |
-| Confirmación de envío exitoso | ![Formulario Enviado](Screenshots/Screenshots-level-3/nivel3-formulario-enviado.png) |
+| Formulario listo para completar | ![Formulario Completo](Screenshots/Screenshots-level-3/nivel3-formulario-completo.png.png) |
+| Confirmación de envío exitoso | ![Formulario Enviado](Screenshots/Screenshots-level-3/nivel3-formulario-enviado.png.png) |
 
 ---
 
