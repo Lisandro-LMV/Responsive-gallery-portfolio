@@ -95,9 +95,9 @@ Los secretos se almacenan cifrados en el repositorio y se inyectan en el workflo
 
 | Descripción | Screenshot |
 |---|---|
-| Lista de pipelines ejecutados | ![Pipeline Lista](Screenshots/Bonus-CICD/bonus-cicd-pipeline-lista.png) |
-| Pasos en verde (deploy exitoso) | ![Pasos Verde](Screenshots/Bonus-CICD/bonus-cicd-pasos-verde.png) |
-| Secrets configurados en GitHub | ![GitHub Secrets](Screenshots/Bonus-CICD/bonus-cicd-github-secrets.png) |
+| Lista de pipelines ejecutados | ![Pipeline Lista](Screenshots/Bonus-CICD/bonus-cicd-pipeline-lista.png.png) |
+| Pasos en verde (deploy exitoso) | ![Pasos Verde](Screenshots/Bonus-CICD/bonus-cicd-pasos-verde.png.png) |
+| Secrets configurados en GitHub | ![GitHub Secrets](Screenshots/Bonus-CICD/bonus-cicd-github-secrets.png.png) |
 
 ---
 
@@ -186,11 +186,11 @@ aws cloudfront create-invalidation \
 
 ## Screenshot — Archivos en el Bucket S3
 
-![S3 README](Screenshots/Screenshots-s3-readme/readme-s3-bucket-archivos.png)
+![S3 README](Screenshots/Screenshots-s3-readme/readme-s3-bucket-archivos.png.png)
 
 ## Screenshot — CloudFront Activo
 
-![CloudFront Activo](Screenshots/Bonus-CICD/readme-cloudfront-activo.png)
+![CloudFront Activo](Screenshots/Bonus-CICD/readme-cloudfront-activo.png.png)
 
 ---
 

@@ -47,8 +47,8 @@ El dashboard centraliza todas las métricas relevantes en una sola vista.
 
 | Descripción | Screenshot |
 |---|---|
-| Dashboard principal con widgets | ![Dashboard](Screenshots/Screenshots-level-4/nivel4-cloudwatch-dashboard.png) |
-| Gráfico de métricas de Lambda | ![Métricas Lambda](Screenshots/Screenshots-level-4/nivel4-cloudwatch-metricas-lambda.png) |
+| Dashboard principal con widgets | ![Dashboard](Screenshots/Screenshots-level-4/nivel4-cloudwatch-dashboard.png.png) |
+| Gráfico de métricas de Lambda | ![Métricas Lambda](Screenshots/Screenshots-level-4/nivel4-cloudwatch-metricas-lambda.png.png) |
 
 ---
 
@@ -81,8 +81,8 @@ Se configuraron alarmas para detectar situaciones críticas automáticamente.
 
 | Descripción | Screenshot |
 |---|---|
-| Lista de alarmas configuradas | ![Alarmas Lista](Screenshots/Screenshots-level-4/nivel4-cloudwatch-alarmas-lista.png) |
-| Detalle de una alarma | ![Alarma Detalle](Screenshots/Screenshots-level-4/nivel4-cloudwatch-alarma-detalle.png) |
+| Lista de alarmas configuradas | ![Alarmas Lista](Screenshots/Screenshots-level-4/nivel4-cloudwatch-alarmas-lista.png.png) |
+| Detalle de una alarma | ![Alarma Detalle](Screenshots/Screenshots-level-4/nivel4-cloudwatch-alarma-detalle.png.png) |
 
 ---
 
@@ -112,8 +112,8 @@ SNS actúa como intermediario entre CloudWatch y el canal de notificación (emai
 
 | Descripción | Screenshot |
 |---|---|
-| Tópico SNS creado | ![SNS Topic](Screenshots/Screenshots-level-4/nivel4-sns-topic.png) |
-| Suscripción confirmada | ![SNS Suscripción](Screenshots/Screenshots-level-4/nivel4-sns-suscripcion.png) |
+| Tópico SNS creado | ![SNS Topic](Screenshots/Screenshots-level-4/nivel4-sns-topic.png.png) |
+| Suscripción confirmada | ![SNS Suscripción](Screenshots/Screenshots-level-4/nivel4-sns-suscripcion.png.png) |
 
 ---
 
