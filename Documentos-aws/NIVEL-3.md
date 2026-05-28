@@ -42,7 +42,7 @@ SES se utiliza para el envío transaccional de emails desde la Lambda.
 
 **Screenshot de verificación:**
 
-![SES Verificado](Screenshots/Screenshots-level-3/nivel3-ses-verificado.png)
+![SES Verificado](Screenshots/Screenshots-level-3/nivel3-ses-verificado.png.png)
 
 ---
 
