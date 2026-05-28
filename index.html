@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css" rel="stylesheet">
+<link href="https://cdn.boxicons.com/3.0.3/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+<title>Responsive Gallery Portfolio</title>
+
+<link rel="stylesheet" href="./css/estilos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header" id="inicio">
+    <img src="./Img/hamburguesa.png" alt="" class="hamburguesa">
+
+    <nav class="menu-navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicio">Servicio</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#expertos">Expertos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="contenedor head">
+        <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+        <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+</header>
+
+<main>
+    <section class="contenedor" id="servicio">
+        <h2 class="subtitulo">Nuestro Servicio</h2>
+
+        <div class="contenedor-servicio">
+            <img src="./Img/checklist.png" alt="">
+
+            <div class="checklist">
+                <div class="service">
+                    <h3 class="n-service"><span class="number">1</span>Diseño Web</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed quia enim et non. Placeat doloremque fugit fugiat quia eveniet.</p>
+                </div>
+
+                <div class="service">
+                    <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed quia enim et non. Placeat doloremque fugit fugiat quia eveniet.</p>
+                </div>
+
+                <div class="service">
+                    <h3 class="n-service"><span class="number">3</span>Diseño Web</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed quia enim et non. Placeat doloremque fugit fugiat quia eveniet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="portafolio">
+        <div class="contenedor">
+            <h2 class="subtitulo">Galería</h2>
+
+            <div class="contenedor-galeria">
+                <img src="./Img/uno.jpg" alt="" class="img-galeria">
+                <img src="./Img/dos.jpg" alt="" class="img-galeria">
+                <img src="./Img/tres.jpg" alt="" class="img-galeria">
+                <img src="./Img/cuatro.jpg" alt="" class="img-galeria">
+                <img src="./Img/cinco.jpg" alt="" class="img-galeria">
+                <img src="./Img/seis.jpg" alt="" class="img-galeria">
+            </div>
+        </div>
+    </section>
+
+    <section class="img-light">
+        <img src="./Img/close.png" alt="" class="close">
+        <img src="./Img/woman.jpg" alt="" class="agregar-imagen">
+    </section>
+
+    <section class="contenedor" id="expertos">
+        <h2 class="subtitulo">Expertos en:</h2>
+
+        <section class="expert">
+            <div class="cont-expert">
+                <img src="./Img/pie-chart.png" alt="">
+                <h3 class="n-expert">Analytics</h3>
+            </div>
+
+            <div class="cont-expert">
+                <img src="./Img/engine.png" alt="">
+                <h3 class="n-expert">SEO</h3>
+            </div>
+
+            <div class="cont-expert">
+                <img src="./Img/Security.png" alt="">
+                <h3 class="n-expert">Security</h3>
+            </div>
+        </section>
+    </section>
+
+    <!-- Agregá esto donde quieras que aparezca el formulario -->
+<section id="contacto">
+<h2>Contacto</h2>
+<form id="contact-form">
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" id="email" name="email" placeholder="Tu email" required>
+    <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+</form>
+<div id="form-status"></div>
+</section>
+</main>
+
+
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById('nombre').value;
+    const email = document.getElementById('email').value;
+    const mensaje = document.getElementById('mensaje').value;
+    const status = document.getElementById('form-status');
+
+    status.textContent = 'Enviando...';
+
+    try {
+        const response = await fetch('https://05ddptcd5j.execute-api.ap-southeast-2.amazonaws.com/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ nombre, email, mensaje })
+        });
+
+        if (response.ok) {
+            status.textContent = '✅ Mensaje enviado con éxito';
+            document.getElementById('contact-form').reset();
+        } else {
+            status.textContent = '❌ Error al enviar el mensaje';
+        }
+    } catch (error) {
+        status.textContent = '❌ Error de conexión';
+    }
+});
+</script>
+
+
+<footer id="contacto">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">Lisandro Design LMV</h2>
+            <p>Somos expertos en la creación de tus sueños</p>
+        </div>
+
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class="bxl bx-facebook-square"></i>
+            </a>
+
+            <a href="./" class="social-media-icon">
+                <i class="bxl bx-twitter"></i>
+            </a>
+
+            <a href="./" class="social-media-icon">
+                <i class="bxl bx-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/menu.js"></script>
+<script src="./js/lightbox.js"></script>
+
+</body>
+</html>
