@@ -162,8 +162,8 @@ Access-Control-Allow-Methods: POST,OPTIONS
 
 | Descripción | Screenshot |
 |---|---|
-| Rutas y recursos de la API | ![API Rutas](Screenshots/Screenshots-level-3/nivel3-apigateway-rutas.png) |
-| Configuración CORS | ![API CORS](Screenshots/Screenshots-level-3/nivel3-apigateway-cors.png) |
+| Rutas y recursos de la API | ![API Rutas](Screenshots/Screenshots-level-3/nivel3-apigateway-rutas.png.png) |
+| Configuración CORS | ![API CORS](Screenshots/Screenshots-level-3/nivel3-apigateway-cors.png.png) |
 
 ---
 
@@ -200,8 +200,8 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
 
 | Descripción | Screenshot |
 |---|---|
-| Formulario listo para completar | ![Formulario Completo](Screenshots/Screenshots-level-3/nivel3-formulario-completo.png) |
-| Confirmación de envío exitoso | ![Formulario Enviado](Screenshots/Screenshots-level-3/nivel3-formulario-enviado.png) |
+| Formulario listo para completar | ![Formulario Completo](Screenshots/Screenshots-level-3/nivel3-formulario-completo.png.png) |
+| Confirmación de envío exitoso | ![Formulario Enviado](Screenshots/Screenshots-level-3/nivel3-formulario-enviado.png.png) |
 
 ---
 
