@@ -30,7 +30,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Por qué:** Le estamos diciendo a CloudFront: "Toma el contenido de este sitio S3 y distribúyelo".
 
-![Configuración de origen](Screenshots/Screenshots-level-2/03-origin-s3.png)
+![Configuración de origen](Screenshots/Screenshots-level-2/level2-03-origin-s3.png.png)
 
 ---
 
@@ -72,7 +72,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Nota:** Si tuvieras un dominio propio (como `miportfolio.com`), aquí podrías usar AWS Certificate Manager para obtener un certificado gratis para tu dominio.
 
-![Certificado SSL](Screenshots/Screenshots-level-2/04-ssl-certificate.png)
+![Certificado SSL](Screenshots/Screenshots-level-2/level2-04-ssl-certificate.png.png)
 
 ---
 
@@ -96,7 +96,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Resultado:** ✅ Distribución creada con estado "Deploying" → después cambió a "Enabled"
 
-![Distribución creada](Screenshots/Screenshots-level-2/01-distribucion-cloudfront.png)
+![Distribución creada](Screenshots/Screenshots-level-2/level2-01-distribucion-cloudfront.png.png)
 
 ---
 
@@ -111,7 +111,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Resultado:** 🎉 ¡El sitio funciona con HTTPS!
 
-![Domain CloudFront](Screenshots/Screenshots-level-2/02-domain-cloudfront.png)
+![Domain CloudFront](Screenshots/Screenshots-level-2/level2-02-domain-cloudfront.png.png)
 
 ---
 
@@ -124,7 +124,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Resultado:** ✅ HTTPS funcionando perfectamente
 
-![HTTPS funcionando](Screenshots/Screenshots-level-2/05-https-funcionando.png)
+![HTTPS funcionando](Screenshots/Screenshots-level-2/level2-05-https-enabled.png.png)
 
 ---
 
@@ -138,7 +138,7 @@ Configurar Amazon CloudFront para que el sitio web:
 
 **Resultado:** Los archivos cargan mucho más rápido que con S3 directo, especialmente para usuarios fuera de EE.UU.
 
-![Tiempos de carga](Screenshots/Screenshots-level-2/06-tiempos-carga.png)
+![Tiempos de carga](Screenshots/Screenshots-level-2/level2-06-load-times.png.png)
 
 **Comparación:**
 - **S3 directo (Nivel 1):** ~500ms desde Virginia

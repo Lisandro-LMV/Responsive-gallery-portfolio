@@ -44,7 +44,7 @@ Configurar una cuenta AWS segura para practicar y desarrollar proyectos, usando 
 
 **Resultado:** ✅ Usuario IAM creado
 
-![Usuario IAM](Screenshots/Screenshots-user-IAM/iam-01-user.png)
+![Usuario IAM](Screenshots/Screenshots-user-IAM/iam-01-user.png.png)
 
 ---
 
@@ -109,7 +109,7 @@ Si quieres solo lo mínimo necesario, puedes crear una política JSON personaliz
 
 **Resultado:** ✅ Permisos asignados
 
-![Permisos asignados](Screenshots/Screenshots-user-IAM/03-permisos.png)
+![Permisos asignados](Screenshots/Screenshots-user-IAM/iam-03-user-permissions.png.png)
 
 ---
 
@@ -157,7 +157,7 @@ Si quieres solo lo mínimo necesario, puedes crear una política JSON personaliz
 
 **Resultado:** ✅ MFA habilitado correctamente
 
-![MFA habilitado](Screenshots/Screenshots-user-IAM/02-mfa-habilitado.png)
+![MFA habilitado](Screenshots/Screenshots-user-IAM/iam-02-mfa-enabled.png.png)
 
 **Ahora cuando intente iniciar sesión:**
 1. Ingreso usuario y contraseña

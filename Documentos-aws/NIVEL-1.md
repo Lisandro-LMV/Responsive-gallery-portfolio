@@ -28,7 +28,7 @@ Subir los archivos HTML/CSS/JS de nuestro portfolio a AWS y hacer que funcione c
 
 **Resultado:** ✅ Bucket creado exitosamente
 
-![Lista de buckets](Screenshots/Screenshots-level-1/01-lista-buckets.png)
+![Lista de buckets](Screenshots/Screenshots-level-1/level1-01-lista-buckets.png.png)
 
 ---
 
@@ -48,7 +48,7 @@ Subir los archivos HTML/CSS/JS de nuestro portfolio a AWS y hacer que funcione c
 
 **Resultado:** ✅ Todos los archivos subidos correctamente
 
-![Archivos en S3](Screenshots/Screenshots-level-1/05-archivos-subidos.png)
+![Archivos en S3](Screenshots/Screenshots-level-1/level1-05-uploaded-files.png.png)
 
 ---
 
@@ -68,7 +68,7 @@ Subir los archivos HTML/CSS/JS de nuestro portfolio a AWS y hacer que funcione c
 
 **Resultado:** ✅ Bucket ahora permite acceso público
 
-![Permisos públicos](Screenshots/Screenshots-level-1/04-permisos-publicos.png)
+![Permisos públicos](Screenshots/Screenshots-level-1/level1-04-bucket-policy.png.png)
 
 ---
 
@@ -124,7 +124,7 @@ Subir los archivos HTML/CSS/JS de nuestro portfolio a AWS y hacer que funcione c
 
 **Resultado:** ✅ Sitio web habilitado, AWS generó una URL pública
 
-![Static Hosting habilitado](Screenshots/Screenshots-level-1/02-static-hosting-enabled.png)
+![Hosting Enabled Endpoint](Screenshots/Screenshots-level-1/level1-02-static-hosting-enabled-endpoint.png.png)
 
 ---
 
@@ -138,9 +138,8 @@ Subir los archivos HTML/CSS/JS de nuestro portfolio a AWS y hacer que funcione c
 
 **Resultado:** 🎉 ¡El sitio web funciona perfectamente!
 
-![Endpoint URL](Screenshots/Screenshots-level-1/03-endpoint-url.png)
 
-![Sitio funcionando](Screenshots/Screenshots-level-1/06-sitio-funcionando.png)
+![Sitio funcionando](Screenshots/Screenshots-level-1/level1-06-website-working.png.png)
 
 **URL del sitio:** `http://[tu-bucket].s3-website-us-east-1.amazonaws.com`
 
@@ -225,6 +224,3 @@ Con la capa gratuita de AWS:
 
 ---
 
-**Fecha de completado:** [Agrega la fecha]  
-**Tiempo invertido:** [Agrega cuánto tiempo te tomó]  
-**Dificultad:** ⭐⭐☆☆☆ (Fácil)
